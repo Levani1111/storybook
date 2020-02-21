@@ -1,0 +1,28 @@
+button {
+    border-radius: 2px;
+    padding: 5px 25px;
+}
+
+.button-primary {
+    background-color: #0069D9;
+    color: white;
+    border: #0069D9;
+}
+.button-danger {
+    background-color: red;
+    color: white;
+    border: red;
+}
+.button-large {
+    padding: 10px 50px;
+}
+.button-success {
+    background-color: rgb(217, 255, 0);
+    color: white;
+    border: red;
+}
+.button-lol {
+    background-color: rgb(183, 0, 255);
+    color: white;
+    border: rgb(255, 0, 251);
+}
