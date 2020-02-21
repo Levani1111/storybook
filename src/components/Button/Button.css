@@ -3,26 +3,111 @@ button {
     padding: 5px 25px;
 }
 
-.button-primary {
+.button-primary1 {
     background-color: #0069D9;
     color: white;
     border: #0069D9;
 }
-.button-danger {
-    background-color: red;
+.button-primary2 {
+    background-color: rgb(8, 62, 121);
     color: white;
-    border: red;
+    border: rgb(8, 62, 121);
+}
+.button-primary2:hover{
+    background-color:  #0069D9;
+}
+.button-primary3 {
+    background-color: white;
+    color: #0069D9;
+    border: 1px solid #0069D9 ;
+}
+.button-primary4 {
+    background-color: rgb(200, 228, 255);
+    color: white;
+    color: #0069D9;
+}
+
+.button-primary5 {
+   
+    background-color: #0069D9;
+    color: white;
+    border: #0069D9;
+}
+.button-primary6 {
+   
+    background-color: rgb(200, 228, 255);
+    color: white;
+    color: #0069D9;
+}
+.button-primary7 {
+   
+   background-color: white;
+   color: #0069D9;
+    border: 1px solid #0069D9 ;
+}
+
+
+.button-danger1 {
+    background-color: #0069D9;
+    color: white;
+    border: #0069D9;
+}
+.button-danger2 {
+    background-color: rgb(8, 62, 121);
+    color: white;
+    border: rgb(8, 62, 121);
+}
+.button-danger2:hover{
+    background-color:  #0069D9;
+}
+.button-danger3 {
+    background-color: white;
+    color: #0069D9;
+    border: 1px solid #0069D9 ;
+}
+.button-danger4 {
+    background-color: rgb(200, 228, 255);
+    color: white;
+    color: #0069D9;
+}
+.button-danger5 {
+   
+    background-color: #0069D9;
+    color: white;
+    border: #0069D9;
+}
+.button-danger6 {
+   
+    background-color: rgb(200, 228, 255);
+    color: white;
+    color: #0069D9;
+}
+.button-danger7 {
+     
+   background-color: white;
+   color: #0069D9;
+    border: 1px solid #0069D9 ;
 }
 .button-large {
     padding: 10px 50px;
 }
 .button-success {
-    background-color: rgb(217, 255, 0);
+    background-color:#0AD00A;
     color: white;
-    border: red;
+    transition: backround-color linear 2s;
+    
 }
-.button-lol {
-    background-color: rgb(183, 0, 255);
-    color: white;
-    border: rgb(255, 0, 251);
+.button-success:hover{
+    background-color: #07C107;
+    color:white;
+}
+.button-border-success{
+    background-color: white;
+    color: #0AD00A;
+    border: 2px  #0AD00A solid;
+
+}
+.button-pale-success{
+    color:#0AD00A;
+background-color: rgba(7, 193, 7, 0.197);
 }
