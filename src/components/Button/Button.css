@@ -32,7 +32,6 @@ button {
     background-color: #FFC600;
     color: white;
     transition: backround-color linear 2s;
-    
 }
 .button-warning:hover {
     background-color:#FFC600;
