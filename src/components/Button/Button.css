@@ -24,7 +24,7 @@ button {
 }
 .button-pale-Default {
     color:#22262A;
-background-color: rgba(34, 38, 42, 0.426);
+    background-color: rgba(34, 38, 42, 0.426);
 }
 /*-----------------------------------------------------*/
 .button-large {
@@ -48,7 +48,7 @@ background-color: rgba(34, 38, 42, 0.426);
 }
 .button-pale-warning {
     color:#FFC600;
-background-color: rgba(255, 200, 0, 0.399);
+    background-color: rgba(255, 200, 0, 0.399);
 }
 /*-----------------------------------------------------*/
 .button-large {
@@ -72,7 +72,7 @@ background-color: rgba(255, 200, 0, 0.399);
 }
 .button-pale-Danger {
     color:#FF4858;
-background-color: rgba(255, 72, 87, 0.454);
+    background-color: rgba(255, 72, 87, 0.454);
 }
 /*-----------------------------------------------------*/
 .button-large {
@@ -96,7 +96,7 @@ background-color: rgba(255, 72, 87, 0.454);
 }
 .button-pale-primary {
     color:#33A0FF;
-background-color: rgba(51, 160, 255, 0.385);
+    background-color: rgba(51, 160, 255, 0.385);
 }
 /*-----------------------------------------------------*/
 .button-large {
@@ -120,5 +120,5 @@ background-color: rgba(51, 160, 255, 0.385);
 }
 .button-pale-success{
     color:#0AD00A;
-background-color: rgba(7, 193, 7, 0.197);
+    background-color: rgba(7, 193, 7, 0.197);
 }
