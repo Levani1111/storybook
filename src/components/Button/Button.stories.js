@@ -79,9 +79,9 @@ storiesOf("Button", module)
   .add("Success  pale", () => <Button label="Success" type="success" pale />)
   .add("Success pale  large", () => (
     <Button label="Success" type="success" pale large />
-  ));
+  ))
   // ------------------------------------------------------------------------------------------
-.add("Default", () => <Button label="Default" type="Default" />)
+  .add("Default", () => <Button label="Default" type="Default" />)
   .add("Default large", () => <Button label="Default" type="Default" large />)
   .add("Default border", () => <Button label="Default" type="Default" border />)
   .add("Default border large", () => (
@@ -90,7 +90,7 @@ storiesOf("Button", module)
   .add("Default  pale", () => <Button label="Default" type="Default" pale />)
   .add("Default pale  large", () => (
     <Button label="Default" type="Default" pale large />
-  ));
+  ))
   //---------------------------------------------------------------------------------------------
   //   .add("Warining", () => <Button label="Warining" type="warning" />)
   //.add("Large Primary", () => (
