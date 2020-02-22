@@ -79,7 +79,7 @@ button {
     transition: backround-color linear 2s;
 }
 .button-primary:hover {
-    background-color: rgb(21, 74, 121);
+    background-color: rgb(4, 125, 232);
     color:white;
 }
 .button-border-primary {
