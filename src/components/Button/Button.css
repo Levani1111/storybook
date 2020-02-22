@@ -2,8 +2,55 @@ button {
     border-radius: 2px;
     padding: 5px 25px;
 }
+/*-----------------------------------------------------*/
+.button-large {
+    padding: 10px 50px;
+}
+.button-Default {
+    background-color: #22262A;
+    color: white;
+    transition: backround-color linear 2s;
+    
+}
+.button-Default:hover {
+    background-color: #22262A;
+    color:white;
+}
+.button-border-Default {
+    background-color: white;
+    color: #22262A;
+    border: 2px #22262A;
 
+}
+.button-pale-Default {
+    color:#22262A;
+background-color: rgba(34, 38, 42, 0.426);
+}
+/*-----------------------------------------------------*/
+.button-large {
+    padding: 10px 50px;
+}
+.button-warning {
+    background-color: #FFC600;
+    color: white;
+    transition: backround-color linear 2s;
+    
+}
+.button-warning:hover {
+    background-color:#FFC600;
+    color:white;
+}
+.button-border-warning {
+    background-color: white;
+    color: #FFC600;
+    border: 2px #FFC600;
 
+}
+.button-pale-warning {
+    color:#FFC600;
+background-color: rgba(255, 200, 0, 0.399);
+}
+/*-----------------------------------------------------*/
 .button-large {
     padding: 10px 50px;
 }
@@ -27,7 +74,6 @@ button {
     color:#FF4858;
 background-color: rgba(255, 72, 87, 0.454);
 }
-
 /*-----------------------------------------------------*/
 .button-large {
     padding: 10px 50px;
