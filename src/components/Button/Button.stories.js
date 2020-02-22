@@ -90,7 +90,7 @@ storiesOf("Button", module)
   .add("Default  pale", () => <Button label="Default" type="Default" pale />)
   .add("Default pale  large", () => (
     <Button label="Default" type="Default" pale large />
-  ))
+  ));
   //---------------------------------------------------------------------------------------------
   //   .add("Warining", () => <Button label="Warining" type="warning" />)
   //.add("Large Primary", () => (

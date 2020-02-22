@@ -13,7 +13,7 @@ button {
     
 }
 .button-primary:hover {
-    background-color:#33A0FF;
+    background-color: #2E90E5;
     color:white;
 }
 .button-border-primary {
@@ -24,7 +24,7 @@ button {
 }
 .button-pale-primary {
     color:#33A0FF;
-background-color: #33A0FF;
+background-color: rgba(51, 160, 255, 0.522);
 }
 /*---------------*/
 .button-large {
