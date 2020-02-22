@@ -71,6 +71,7 @@ storiesOf("Button", module)
   // .add("Add To Cart", () => (
     // <Button label="Add To Cart" type="add To cart" AddShoppingCartIcon />
   // ))
+  // ***********************
   .add("Add To Cart", () => (
     <Button
       color="Add To Cart"
