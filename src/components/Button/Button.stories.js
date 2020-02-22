@@ -1,5 +1,11 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPlus,
+  faTrash,
+  faBaseballBall
+} from "@fortawesome/free-solid-svg-icons";
 
 import Button from './Button';
 
@@ -63,4 +69,4 @@ storiesOf("Button", module)
   ))
   //---------------------------------------------------------------------------------------------
   .add("Add To Cart", () => <Button label="Add To Cart" type="add To cart" AddShoppingCartIcon />)
- 
+ .add("Add To Cart", () => <Button color="Add To Cart" icon={<FontAwesomeIcon icon={faPlus} />} label="Save" />)
