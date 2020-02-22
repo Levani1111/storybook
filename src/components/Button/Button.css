@@ -112,6 +112,7 @@ button {
 
 }
 .button-pale-success{
+    border: none;
     color:#0AD00A;
     background-color: rgba(7, 193, 7, 0.197);
 }
