@@ -3,6 +3,32 @@ button {
     padding: 5px 25px;
 }
 
+
+.button-large {
+    padding: 10px 50px;
+}
+.button-Danger {
+    background-color:#FF4858;
+    color: white;
+    transition: backround-color linear 2s;
+    
+}
+.button-Danger:hover {
+    background-color:#FF4858;
+    color:white;
+}
+.button-border-Danger {
+    background-color: white;
+    color: #FF4858;
+    border: 2px #FF4858 solid;
+
+}
+.button-pale-Danger {
+    color:#FF4858;
+background-color: rgba(255, 72, 87, 0.454);
+}
+
+/*-----------------------------------------------------*/
 .button-large {
     padding: 10px 50px;
 }
@@ -24,9 +50,9 @@ button {
 }
 .button-pale-primary {
     color:#33A0FF;
-background-color: rgba(51, 160, 255, 0.522);
+background-color: rgba(51, 160, 255, 0.385);
 }
-/*---------------*/
+/*-----------------------------------------------------*/
 .button-large {
     padding: 10px 50px;
 }
