@@ -6,9 +6,9 @@ const Button = (props) => {
     let classList = ''
     let types = [
       "primary",
-      "danger",
+      "Danger",
       "warning",
-      "success",
+      "Success",
       "Default",
       "Add To Cart",
     ];
