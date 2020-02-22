@@ -2,6 +2,51 @@ button {
     border-radius: 2px;
     padding: 5px 25px;
 }
+
+.button-primary1 {
+    background-color: #0069D9;
+    color: white;
+    border: #0069D9;
+}
+.button-primary2 {
+    background-color: rgb(8, 62, 121);
+    color: white;
+    border: rgb(8, 62, 121);
+}
+.button-primary2:hover{
+    background-color:  #0069D9;
+}
+.button-primary3 {
+    background-color: white;
+    color: #0069D9;
+    border: 1px solid #0069D9 ;
+}
+.button-primary4 {
+    background-color: rgb(200, 228, 255);
+    color: white;
+    color: #0069D9;
+}
+
+.button-primary5 {
+   
+    background-color: #0069D9;
+    color: white;
+    border: #0069D9;
+}
+.button-primary6 {
+   
+    background-color: rgb(200, 228, 255);
+    color: white;
+    color: #0069D9;
+}
+.button-primary7 {
+   
+   background-color: white;
+   color: #0069D9;
+    border: 1px solid #0069D9 ;
+}
+
+
 .button-danger1 {
     background-color: #0069D9;
     color: white;
@@ -49,6 +94,7 @@ button {
 .button-success {
     background-color:#0AD00A;
     color: white;
+    -webkit-transition: backround-color linear 2s;
     transition: backround-color linear 2s;
     
 }
@@ -66,3 +112,5 @@ button {
     color:#0AD00A;
 background-color: rgba(7, 193, 7, 0.197);
 }
+
+/*# sourceMappingURL=main.40c121b9.chunk.css.map*/
