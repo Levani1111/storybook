@@ -60,6 +60,9 @@ storiesOf("Button", module)
   .add("Default  pale", () => <Button label="Default" type="Default" pale />)
   .add("Default pale  large", () => (
     <Button label="Default" type="Default" pale large />
-  ));
+  ))
   //---------------------------------------------------------------------------------------------
-  
+  .add("Add To Cart", () => <button label="Add To Cart" type="add To cart" AddShoppingCartIcon />)
+  // .add("Add To Cart", () => <IconButton color="Add To Cart" aria-label="add to shopping cart">
+    // <AddShoppingCartIcon /> )
+  // </IconButton>;
