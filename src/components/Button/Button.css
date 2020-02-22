@@ -10,7 +10,6 @@ button {
     background-color: #22262A;
     color: white;
     transition: backround-color linear 2s;
-    
 }
 .button-Default:hover {
     background-color: #22262A;
@@ -20,7 +19,6 @@ button {
     background-color: white;
     color: #22262A;
     border: 2px #22262A;
-
 }
 .button-pale-Default {
     color:#22262A;
@@ -58,7 +56,6 @@ button {
     background-color:#FF4858;
     color: white;
     transition: backround-color linear 2s;
-    
 }
 .button-Danger:hover {
     background-color:#FF4858;
@@ -68,7 +65,6 @@ button {
     background-color: white;
     color: #FF4858;
     border: 2px #FF4858 solid;
-
 }
 .button-pale-Danger {
     color:#FF4858;
@@ -82,7 +78,6 @@ button {
     background-color:#33A0FF;
     color: white;
     transition: backround-color linear 2s;
-    
 }
 .button-primary:hover {
     background-color: #2E90E5;
@@ -106,7 +101,6 @@ button {
     background-color:#0AD00A;
     color: white;
     transition: backround-color linear 2s;
-    
 }
 .button-success:hover {
     background-color: #07C107;
