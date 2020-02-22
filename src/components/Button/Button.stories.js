@@ -62,9 +62,12 @@ storiesOf("Button", module)
     <Button label="Default" type="Default" pale large />
   ))
   //---------------------------------------------------------------------------------------------
-  .add("Add To Cart AddShoppingCartIcon", () => (
-    <Button label="Add To Cart" type="add To cart" AddShoppingCartIcon />
-  ));
-  // .add("Add To Cart", () => <IconButton color="Add To Cart" aria-label="add to shopping cart">
-    // <AddShoppingCartIcon /> )
-  // </IconButton>;
+  //.add("Add To Cart AddShoppingCartIcon", () => (
+   // <Button label="Add To Cart" type="add To cart" AddShoppingCartIcon />
+  //));
+  .add("Add To Cart ", () => (
+    <IconButton label="Add To Cart" type="add To cart" AddShoppingCartIcon />
+));
+  //.add("Add To Cart", () => <IconButton  aria-label="add to shopping cart">
+    //  <AddShoppingCartIcon /> )
+  //  </IconButton>;
