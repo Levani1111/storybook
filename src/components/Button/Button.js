@@ -8,7 +8,7 @@ const Button = (props) => {
       "primary",
       "Danger",
       "warning",
-      "Success",
+      "success",
       "Default",
       "Add To Cart",
     ];
