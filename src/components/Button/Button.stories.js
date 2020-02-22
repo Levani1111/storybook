@@ -68,5 +68,13 @@ storiesOf("Button", module)
     <Button label="Default" type="Default" pale large />
   ))
   //---------------------------------------------------------------------------------------------
-  .add("Add To Cart", () => <Button label="Add To Cart" type="add To cart" AddShoppingCartIcon />)
- .add("Add To Cart", () => <Button color="Add To Cart" icon={<FontAwesomeIcon icon={faPlus} />} label="Save" />)
+  // .add("Add To Cart", () => (
+    // <Button label="Add To Cart" type="add To cart" AddShoppingCartIcon />
+  // ))
+  .add("Add To Cart", () => (
+    <Button
+      color="Add To Cart"
+      icon={<FontAwesomeIcon icon={faPlus} />}
+      label="Add To Cart"
+    />
+  ));
