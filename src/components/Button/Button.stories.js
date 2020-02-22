@@ -59,6 +59,17 @@ storiesOf("Button", module)
     <Button label="Danger" type="Danger" pale large />
   ))
   // ---------------------------------------------------------------------------------------------
+  .add("warning", () => <Button label="warning" type="warning" />)
+  .add("warning large", () => <Button label="warning" type="warning" large />)
+  .add("warning border", () => <Button label="warning" type="warning" border />)
+  .add("warning border large", () => (
+    <Button label="warning" type="warning" border large />
+  ))
+  .add("warning  pale", () => <Button label="warning" type="warning" pale />)
+  .add("warning pale  large", () => (
+    <Button label="warning" type="warning" pale large />
+  ))
+  // ---------------------------------------------------------------------------------------------
   .add("Success", () => <Button label="Success" type="success" />)
   .add("Success large", () => <Button label="Success" type="success" large />)
   .add("Success border", () => <Button label="Success" type="success" border />)
@@ -68,9 +79,18 @@ storiesOf("Button", module)
   .add("Success  pale", () => <Button label="Success" type="success" pale />)
   .add("Success pale  large", () => (
     <Button label="Success" type="success" pale large />
-  ))
+  ));
   // ------------------------------------------------------------------------------------------
-
+.add("Default", () => <Button label="Default" type="Default" />)
+  .add("Default large", () => <Button label="Default" type="Default" large />)
+  .add("Default border", () => <Button label="Default" type="Default" border />)
+  .add("Default border large", () => (
+    <Button label="Success" type="success" border large />
+  ))
+  .add("Default  pale", () => <Button label="Default" type="Default" pale />)
+  .add("Default pale  large", () => (
+    <Button label="Default" type="Default" pale large />
+  ));
   //---------------------------------------------------------------------------------------------
   //   .add("Warining", () => <Button label="Warining" type="warning" />)
   //.add("Large Primary", () => (
