@@ -34,7 +34,7 @@ button {
     transition: backround-color linear 2s;
 }
 .button-warning:hover {
-    background-color:#FFC600;
+    background-color:rgb(250, 230, 156);
     color:white;
 }
 .button-border-warning {
@@ -57,7 +57,7 @@ button {
     transition: backround-color linear 2s;
 }
 .button-Danger:hover {
-    background-color:#FF4858;
+    background-color:rgba(255, 72, 87, 0.495);
     color:white;
 }
 .button-border-Danger {
@@ -79,7 +79,7 @@ button {
     transition: backround-color linear 2s;
 }
 .button-primary:hover {
-    background-color: #2E90E5;
+    background-color: rgb(163, 211, 252);
     color:white;
 }
 .button-border-primary {
@@ -102,7 +102,7 @@ button {
     transition: backround-color linear 2s;
 }
 .button-success:hover {
-    background-color: #07C107;
+    background-color:rgb(163, 238, 163);
     color:white;
 }
 .button-border-success {
