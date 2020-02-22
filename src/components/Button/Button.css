@@ -18,7 +18,7 @@ button {
 .button-border-Default {
     background-color: white;
     color: #22262A;
-    border: 2px #22262A;
+    border: 2px #22262A solid;
 }
 .button-pale-Default {
     color:#22262A;
@@ -40,7 +40,7 @@ button {
 .button-border-warning {
     background-color: white;
     color: #FFC600;
-    border: 2px #FFC600;
+    border: 2px #FFC600 solid;
 
 }
 .button-pale-warning {
