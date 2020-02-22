@@ -2,47 +2,31 @@ button {
     border-radius: 2px;
     padding: 5px 25px;
 }
-.button-danger1 {
-    background-color: #0069D9;
+
+.button-large {
+    padding: 10px 50px;
+}
+.button-primary {
+    background-color:#33A0FF;
     color: white;
-    border: #0069D9;
+    transition: backround-color linear 2s;
+    
 }
-.button-danger2 {
-    background-color: rgb(8, 62, 121);
-    color: white;
-    border: rgb(8, 62, 121);
+.button-primary:hover {
+    background-color:#33A0FF;
+    color:white;
 }
-.button-danger2:hover{
-    background-color:  #0069D9;
-}
-.button-danger3 {
+.button-border-primary {
     background-color: white;
-    color: #0069D9;
-    border: 1px solid #0069D9 ;
+    color: #33A0FF;
+    border: 2px #33A0FF solid;
+
 }
-.button-danger4 {
-    background-color: rgb(200, 228, 255);
-    color: white;
-    color: #0069D9;
+.button-pale-primary {
+    color:#33A0FF;
+background-color: #33A0FF;
 }
-.button-danger5 {
-   
-    background-color: #0069D9;
-    color: white;
-    border: #0069D9;
-}
-.button-danger6 {
-   
-    background-color: rgb(200, 228, 255);
-    color: white;
-    color: #0069D9;
-}
-.button-danger7 {
-     
-   background-color: white;
-   color: #0069D9;
-    border: 1px solid #0069D9 ;
-}
+/*---------------*/
 .button-large {
     padding: 10px 50px;
 }
@@ -52,11 +36,11 @@ button {
     transition: backround-color linear 2s;
     
 }
-.button-success:hover{
+.button-success:hover {
     background-color: #07C107;
     color:white;
 }
-.button-border-success{
+.button-border-success {
     background-color: white;
     color: #0AD00A;
     border: 2px  #0AD00A solid;
