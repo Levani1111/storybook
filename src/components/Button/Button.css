@@ -111,47 +111,7 @@ button {
     border: 2px  #0AD00A solid;
 
 }
-.button-pale-success{
+.button-pale-success {
     color:#0AD00A;
-    background-color: rgba(7, 193, 7, 0.197);
-}
-/*-----------------------------------  */
-/*Cart button */
-
-/*.button-cart{
-    background-color: rgba(51,160,255,0.2);
-    color: #33A0FF;
-    background-image: url('./img/cart_2.svg');
-    background-size: 10px;
-    background-repeat: no-repeat;
-    background-position: 10px;
-}
-
-.button-cart-small{
-    background-color: rgba(51,160,255,0.2);
-    padding:18px;
-    background-image: url('./img/cart_2.svg');
-    background-size: 2;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-/*.button-favorite{
-    background-color: rgba(51,160,255,0.2);
-    color: #33A0FF;
-    background-image: url('img/hearts.svg');
-    background-size: 2;
-    background-repeat: no-repeat;
-    background-position: 5px;
-}
-
-.button-favorite-small{
-    background-color: rgba(51,160,255,0.2);
-    color: #33A0FF;
-    background-image: url('img/hearts.svg');
-    background-size: 20px;
-    padding: 18px;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-}
+    background-color: rgba(7, 193, 7, 0.196);
+}  
