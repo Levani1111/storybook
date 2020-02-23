@@ -10,7 +10,11 @@ const Button = (props) => {
       "warning",
       "success",
       "Default",
-      ];
+      "cart",
+      "cart-small",
+      "favorite",
+      "favorite-small"
+    ];
     if (types.includes(props.type)) {
         classList += ` button-${props.type}`
     }
