@@ -24,20 +24,11 @@ const Button = (props) => {
     if (props.pale){
         classList += ` button-pale-${props.type}`
     }
-    if (props.icon && !props.label) {
-      classList += " icon-solo";
-    }
-    if (props.icon && props.label) {
-      classList += " icon";
-    }
-    return <button className = {classList}>
-       <img className = "symbol" src={props.icon}/>  {props.label}
-    </button>
-}
+    
     return <button className={classList} onClick={props.onClick}> 
         {props.label}
     </button>
-
+}
 
 
 
