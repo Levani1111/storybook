@@ -121,10 +121,10 @@ button {
 .button-cart{
     background-color: rgba(51,160,255,0.2);
     color: #33A0FF;
-    /*background-image: url('./img/cart_2.svg');
+    background-image: url('.cart.svg');
     background-size: 10px;
     background-repeat: no-repeat;
-    background-position: 10px;*/
+    background-position: 10px;
 }
 
 

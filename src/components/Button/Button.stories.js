@@ -71,10 +71,10 @@ storiesOf("Button", module)
   // ------------------------------------------------------------------------
   //cart buttons
   .add("Cart", () => (
-    <Button label="Add To Cart" type="cart" inline icon="cart" />
+    <Button label="Add To Cart" type="cart" />
   ))
 
-  .add("Cart-small", () => <Button label="" type="cart-small" inline icon="cart" />)
+  .add("Cart-small", () => <Button label="" type="cart-small" />)
 
   //favorite buttons
   .add("Favorite", () => <Button label="Add To Favorites" type="favorite" />)
