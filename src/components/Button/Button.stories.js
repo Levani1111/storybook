@@ -61,7 +61,13 @@ storiesOf("Button", module)
     <Button label="Default" type="Default" pale large />
   ))
   //---------------------------------------------------------------------------------------------
-  // cart
-  // cart
-  // cart
-  .add("cart", () => <Button label="cart" type="cart" />);
+  //cart buttons
+  
+  //.add("Cart", () => <Button label="Add to Cart" type="cart" />)
+
+  //.add("Cart-small", () => <Button label="" type="cart-small" />)
+
+  //favorite buttons
+  // .add("Favorite", () => <Button label="Add To Favorites" type="favorite" />)
+
+  // .add("Favorite-small", () => <Button label="" type="favorite-small" />);
