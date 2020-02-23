@@ -28,12 +28,7 @@ const Button = (props) => {
         {props.label}
     </button>
 }
-return (
-  <button className={classList}>
-    <img src={props.icon} />
-    {props.label}
-  </button>
-)
+
 
 
 export default Button; 
