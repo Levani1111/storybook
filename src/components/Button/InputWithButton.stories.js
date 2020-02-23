@@ -1,7 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 
-import TextInputButton from "./TextInputButton.js";
+import InputWithButton from "./InputWithButton.js";
 
 let inputValue = "";
 function onChange(e) {
@@ -10,12 +10,12 @@ function onChange(e) {
 }
 function myFunction(e) {
   e.preventDefault();
-  alert(`You wrote " ${inputValue} "`);
+  alert(`This is a callback! You wrote " ${inputValue} "`);
 }
 
 storiesOf("Input with Button", module)
   .add("Medium", () => (
-    <TextInputButton
+    <InputWithButton
       medium
       placeholder="Voucher code"
       title="Redeem"
@@ -24,7 +24,7 @@ storiesOf("Input with Button", module)
     />
   ))
   .add("Large", () => (
-    <TextInputButton
+    <InputWithButton
       large
       placeholder="Voucher code"
       title="Redeem"

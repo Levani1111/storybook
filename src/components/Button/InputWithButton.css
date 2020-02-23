@@ -1,0 +1,33 @@
+.mediumDiv {
+  width: 300px;
+  height: 46px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.inputButton {
+  background-color: #33a0ff;
+  height: 46px;
+  text-align: center;
+  padding: 0 25px;
+  z-index: 1;
+  margin-top: 5px;
+  position: absolute;
+  right: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.bigDiv {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  width: 369px;
+  position: relative;
+}
+
+.bigButton {
+  height: 60px;
+  position: absolute;
+}

@@ -1,7 +1,8 @@
 import React from "react";
-import "./TextInputButton.css";
-// ------------------------------------------------
-export default function TextInputButton(props) {
+import Form from "../EmailForms/Form.js";
+import "./InputWithButton.css";
+
+export default function InputWithButton(props) {
   if (props.medium) {
     return (
       <div class="mediumDiv">
@@ -18,7 +19,7 @@ export default function TextInputButton(props) {
     );
   } else {
     return (
-      <div class="largeDiv">
+      <div class="bigDiv">
         <Form
           onChange={props.onChange}
           onSubmit={props.action}
