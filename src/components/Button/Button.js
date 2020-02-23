@@ -10,7 +10,7 @@ const Button = (props) => {
       "warning",
       "success",
       "Default",
-      "Add To Cart",
+      "cart",
       
     ];
     if (types.includes(props.type)) {
