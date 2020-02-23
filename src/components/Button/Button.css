@@ -116,7 +116,7 @@ button {
     background-color: rgba(7, 193, 7, 0.196);
 }  
 
-/*Cart button 
+/*Cart button */
 .button-cart{
     background-color: rgba(51,160,255,0.2);
     color: #33A0FF;
@@ -126,7 +126,7 @@ button {
     background-position: 10px;
 }
 
-
+/*
 .button-cart-small{
     background-color: rgba(51,160,255,0.2);
     padding:18px;
