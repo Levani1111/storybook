@@ -61,5 +61,5 @@ storiesOf("Button", module)
     <Button label="Default" type="Default" pale large />
   ))
   //---------------------------------------------------------------------------------------------
-
+  // cart
   .add("cart", () => <Button label="cart" type="cart" />);
