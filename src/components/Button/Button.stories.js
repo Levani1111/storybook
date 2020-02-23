@@ -1,7 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import Button from './Button';
-import Cart from "./cart_1.svg";
+import Cart from './cart_2.png';
+
 
 
 

@@ -10,10 +10,7 @@ const Button = (props) => {
       "warning",
       "success",
       "Default",
-      "cart",
-      "cart-small",
-      "favorite",
-      "favorite-small"
+     
     ];
     if (types.includes(props.type)) {
         classList += ` button-${props.type}`
@@ -31,6 +28,12 @@ const Button = (props) => {
         {props.label}
     </button>
 }
+return (
+  <button className={classList}>
+    <img src={props.icon} />
+    {props.label}
+  </button>
+)
 
 
 export default Button; 
