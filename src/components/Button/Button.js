@@ -1,5 +1,7 @@
 import React from 'react';
 import './Button.css';
+import "./img/cart_2.svg";
+import "./img/hearts.png";
 
 // This is a functional component - just sent up a little differently as an arrow function!
 const Button = (props) => {
@@ -28,6 +30,16 @@ const Button = (props) => {
         classList += ` button-pale-${props.type}`
     }
     
+    //  prop icon 
+    if (props.icon){
+        classList += 'contains-icon';
+        if(props.label==="" || props.label===undefined){
+        innerHTML= <div className={'flex-button'}><Icon icon={props.icon}/></div>;
+        }
+        else{
+        innerHTML= <div className={'flex-button'}><Icon icon={props.icon}/><span>{props.label}</span></div>;
+    }}
+
     return <button className={classList} onClick={props.onClick}> 
         {props.label}
     </button>
