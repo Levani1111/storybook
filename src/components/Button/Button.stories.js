@@ -6,7 +6,6 @@ import Button from './Button';
 
 
 
-
 storiesOf("Button", module)
   //----------------------------------------------------------------------------------
   .add("primary", () => <Button label="primary" type="primary" />)
