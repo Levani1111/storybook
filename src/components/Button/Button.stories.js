@@ -61,4 +61,4 @@ storiesOf("Button", module)
     <Button label="Default" type="Default" pale large />
   ))
   //---------------------------------------------------------------------------------------------
-  .add("Add To Cart", () => < Button icon="cart" type="primary" label="Add To Cart" faded />)
+  .add("Add To Cart", () => < Button icon="cart" type="Add To Cart" label="Add To Cart" faded />)
