@@ -117,43 +117,42 @@ button {
 }  
 
 /*Cart button */
-/*
+
 .button-cart{
     background-color: rgba(51,160,255,0.2);
     color: #33A0FF;
-    background-image: url('./img/cart_1.svg');
+   /* background-image: url('./img/cart_1.svg');
     background-size: 10px;
     background-repeat: no-repeat;
-    background-position: 10px;
+    background-position: 10px;*/
 }
 
-/*
+
 .button-cart-small{
     background-color: rgba(51,160,255,0.2);
     padding:18px;
-    background-image: url('./img/cart_1.png');
+    /*background-image: url('./img/cart_1.png');
     background-size: 2;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center;*/
 }
 
 .button-favorite{
     background-color: rgba(51,160,255,0.2);
     color: #33A0FF;
-    background-image: url('img/hearts_2.png');
+   /* background-image: url('img/hearts_2.png');
     background-size: 2;
     background-repeat: no-repeat;
-    background-position: 5px;
+    background-position: 5px;*/
 }
 
 .button-favorite-small{
     background-color: rgba(51,160,255,0.2);
     color: #33A0FF;
-    background-image: url('img/hearts_2.png');
+    /*background-image: url('img/hearts_2.png');
     background-size: 20px;
     padding: 18px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center;*/
     
 }
-*/
