@@ -1,7 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 
-import TextInputButton from "./TextInputButton.js.js";
+import TextInputButton from "./TextInputButton.js";
 
 let inputValue = "";
 function onChange(e) {
