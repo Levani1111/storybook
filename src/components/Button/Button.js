@@ -1,7 +1,7 @@
 import React from 'react';
 import './Button.css';
-import "./img/cart_2.svg";
-import "./img/hearts.png";
+import "./cart.svg";
+import Icon from "../Icon/Icon";
 
 // This is a functional component - just sent up a little differently as an arrow function!
 const Button = (props) => {
