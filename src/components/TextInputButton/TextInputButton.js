@@ -16,7 +16,7 @@ export default function TextInputButton(props) {
           {props.title}
         </button>
       </div>
-    )
+    );
   } else {
     return (
       <div class="largeDiv">
