@@ -32,3 +32,4 @@ storiesOf("Input with Button", module)
       action={myFunction}
     />
   ));
+// new one
