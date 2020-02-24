@@ -3,8 +3,8 @@ import { storiesOf } from "@storybook/react";
 import CheckBox from "./CheckBox";
 // ----------------------------------------------------------
 storiesOf("Check Box", module)
-  .add("Black CheckBox", () => <CheckBox checked={false} />)
-  .add("Blue CheckBox", () => <CheckBox checked={false} blue />)
+  .add("Black CheckBox", () => <CheckBox checked={true} />)
+  .add("Blue CheckBox", () => <CheckBox checked={true} blue />)
   .add("Black CheckBox w/Label", () => (
-    <CheckBox checked={false} label="Don't show this popup again" />
+    <CheckBox checked={true} label="Don't show this popup again" />
   ));
