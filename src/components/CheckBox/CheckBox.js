@@ -3,8 +3,8 @@ import "./CheckBox.css";
 import CheckBox from "./CheckBox"
 import uncheckedBlack from "./img/unchecked-black.png";
 import checkedBlack from "./img/checked-black.png";
-//import uncheckedBlue from "./img/unchecked-blue.png";
-//import checkedBlue from "./img/checked-blue.png";
+import uncheckedBlue from "./img/unchecked-blue.png";
+import checkedBlue from "./img/checked-blue.png";
 
 class CheckBox extends React.Component {
   constructor(props) {
