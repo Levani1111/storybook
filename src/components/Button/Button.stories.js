@@ -70,9 +70,9 @@ storiesOf("Button", module)
   //.add("Favorite-small", () => <Button label="" type="favorite-small" />);
   // ------------------------------------------------------------------------
   //cart buttons
-  .add("Cart", () => <Button label="/U{1F6D2} Add To Cart" type="cart" large f07a />)
+  .add("Cart", () => <Button label="🛒 Add To Cart" type="cart" large />)
 
-  .add("Cart-small", () => <Button label="" type="cart-small" />)
+  .add("Cart-small", () => <Button label="🛒" type="cart-small" />)
 
   //favorite buttons
   .add("Favorite", () => <Button label="Add To Favorites" type="favorite" />)
