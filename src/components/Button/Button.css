@@ -119,7 +119,7 @@ button {
 /*Cart button */
 
 .button-cart{
-    background-color: rgba(51,160,255,0.2);
+    /*background-color: rgba(51,160,255,0.2);*/
     color: #33A0FF;
     background-image: url('cart.svg') no-repeat top left;
 
