@@ -1,10 +1,10 @@
 import React from "react";
 import "./CheckBox.css";
 import CheckBox from "./CheckBox"
-import uncheckedBlack from  "./img/checkbox - checked_blue.svg";
-import checkedBlack from  "./img/checkbox_blue.svg";
-import uncheckedBlue from  "./img/checkbox.svg";
-import checkedBlue from  "./img/checked-black.svg";
+import checkedBlack2 from "./img/checkedBlack2.svg";
+import checkboxblack from "./img/checkboxblack.svg";
+import checkboxblue2 from "./img/checkboxblue2.svg";
+import checkedblue from  "./img/checkedblue.svg";
 // --------------------------------------------------------
 class CheckBox extends React.Component {
   constructor(props) {
@@ -20,31 +20,31 @@ class CheckBox extends React.Component {
   handleClick(e) {
     e.preventDefault();
     let newSrc;
-    if (e.target.src.includes("checkbox - checked_blue")) {
-      newSrc = { checkboxchecked_blue }.checkbox - checked_blue;
+    if (e.target.src.includes("checkboxblue2")) {
+      newSrc = { checkboxblue2 }.checkboxblue2;
       this.setState({
         checked: !this.state.checked,
         src: newSrc
       });
-    } else if (e.target.src.includes("checkbox_blue")) {
-      newSrc = { checkbox_blue }.checkbox_blue;
-      this.setState({
-        checked: !this.state.checked,
-        src: newSrc
-      });
-    } else if (e.target.src.includes("checkbox")) {
-      newSrc = { checkbox }.checkbox;
-      this.setState({
-        checked: !this.state.checked,
-        src: newSrc
-      });
-    } else if (e.target.src.includes("checked-black")) {
-      newSrc = { checkedblack }.checked - black;
-      this.setState({
-        checked: !this.state.checked,
-        src: newSrc
-      });
-    }
+    } else if (e.target.src.includes("checkedblue")) {
+             newSrc = { checkedblue }.checkedblue;
+             this.setState({
+               checked: !this.state.checked,
+               src: newSrc
+             });
+           } else if (e.target.src.includes("checkedBlack2")) {
+                    newSrc = { checkedBlack2 }.checkedBlack2;
+                    this.setState({
+                      checked: !this.state.checked,
+                      src: newSrc
+                    });
+                  } else if (e.target.src.includes("checkboxblack")) {
+                           newSrc = { checkboxblack }.checkboxblack;
+                           this.setState({
+                             checked: !this.state.checked,
+                             src: newSrc
+                           });
+                         }
   }
   render() {
     return (
