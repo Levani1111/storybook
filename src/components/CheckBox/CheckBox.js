@@ -21,25 +21,25 @@ class CheckBox extends React.Component {
     e.preventDefault();
     let newSrc;
     if (e.target.src.includes("checkbox - checked_blue")) {
-      newSrc = { checkedBlue }.checkedBlue;
+      newSrc = { checkboxchecked_blue }.checkbox - checked_blue;
       this.setState({
         checked: !this.state.checked,
         src: newSrc
       });
     } else if (e.target.src.includes("checkbox_blue")) {
-      newSrc = { uncheckedBlue }.uncheckedBlue;
+      newSrc = { checkbox_blue }.checkbox_blue;
       this.setState({
         checked: !this.state.checked,
         src: newSrc
       });
     } else if (e.target.src.includes("checkbox")) {
-      newSrc = { checkedBlack }.checkedBlack;
+      newSrc = { checkbox }.checkbox;
       this.setState({
         checked: !this.state.checked,
         src: newSrc
       });
     } else if (e.target.src.includes("checked-black")) {
-      newSrc = { uncheckedBlack }.uncheckedBlack;
+      newSrc = { checkedblack }.checked - black;
       this.setState({
         checked: !this.state.checked,
         src: newSrc
