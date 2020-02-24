@@ -1,5 +1,6 @@
 import React from "react";
 import "./CheckBox.css";
+import CheckBox from "./CheckBox"
 import uncheckedBlack from "./img/unchecked-black.png";
 import checkedBlack from "./img/checked-black.png";
 //import uncheckedBlue from "./img/unchecked-blue.png";
