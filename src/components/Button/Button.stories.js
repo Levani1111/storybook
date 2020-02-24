@@ -71,7 +71,7 @@ storiesOf("Button", module)
   // ------------------------------------------------------------------------
   //cart buttons
   .add("Cart", () => <Button label="Add To Cart" type="cart" large />)
-git
+
   .add("Cart-small", () => <Button label="" type="cart-small" />)
 
   //favorite buttons
