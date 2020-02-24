@@ -1,7 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import CheckBox from "./CheckBox";
-
+// ----------------------------------------------------------
 storiesOf("Check Box", module)
   .add("Black CheckBox", () => <CheckBox checked={false} />)
   .add("Blue CheckBox", () => <CheckBox checked={false} blue />)

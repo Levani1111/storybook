@@ -1,11 +1,11 @@
 import React from "react";
 import "./CheckBox.css";
 import CheckBox from "./CheckBox"
-import uncheckedBlack from "./img/unchecked-black.png";
-import checkedBlack from "./img/checked-black.png";
-import uncheckedBlue from "./img/unchecked-blue.png";
-import checkedBlue from "./img/checked-blue.png";
-
+import uncheckedBlack from "./img/checkbox - checked_blue.svg";
+import checkedBlack from "./img/checkbox_blue.svg";
+import uncheckedBlue from "./img/checkbox.svg";
+import checkedBlue from "./img/checked-black.svg";
+// --------------------------------------------------------
 class CheckBox extends React.Component {
   constructor(props) {
     super(props);
@@ -20,19 +20,19 @@ class CheckBox extends React.Component {
   handleClick(e) {
     e.preventDefault();
     let newSrc;
-    if (e.target.src.includes("unchecked-blue")) {
+    if (e.target.src.includes("checkbox - checked_blue")) {
       newSrc = { checkedBlue }.checkedBlue;
       this.setState({
         checked: !this.state.checked,
         src: newSrc
       });
-    } else if (e.target.src.includes("checked-blue")) {
+    } else if (e.target.src.includes("checkbox_blue")) {
       newSrc = { uncheckedBlue }.uncheckedBlue;
       this.setState({
         checked: !this.state.checked,
         src: newSrc
       });
-    } else if (e.target.src.includes("unchecked-black")) {
+    } else if (e.target.src.includes("checkbox")) {
       newSrc = { checkedBlack }.checkedBlack;
       this.setState({
         checked: !this.state.checked,
