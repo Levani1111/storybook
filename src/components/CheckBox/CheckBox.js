@@ -1,6 +1,6 @@
 import React from "react";
 import "./CheckBox.css";
-import CheckBox from "./CheckBox"
+import CheckBox from "./CheckBox";
 import checkedBlack2 from "../img/checkedBlack2.svg";
 import checkboxblack from "../img/checkboxblack.svg";
 import checkboxblue2 from "../img/checkboxblue2.svg";

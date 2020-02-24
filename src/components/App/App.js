@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import './@storybook/preset-create-react-app';
+
 
 function App() {
   return (
