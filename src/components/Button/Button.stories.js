@@ -75,6 +75,6 @@ storiesOf("Button", module)
   .add("Cart-small", () => <Button label="🛒" type="cart-small" />)
 
   //favorite buttons
-  .add("Favorite", () => <Button label="💙 Add To Favorites" type="favorite" />)
+  .add("Favorite", () => <Button label="❤️ Add To Favorites" type="favorite" />)
 
-  .add("Favorite-small", () => <Button label="💙" type="favorite-small" />);
+  .add("Favorite-small", () => <Button label="❤️" type="favorite-small" />);
