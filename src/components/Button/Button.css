@@ -124,9 +124,6 @@ button {
     background-image: url('cart.png');
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-position: 0px 0px;  /* equivalent to 'top left' */
-    height: 16px;           /* make this the size of your image */
-    vertical-align: top;
-
 }
 
 
