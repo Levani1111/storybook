@@ -1,0 +1,51 @@
+.checked .unchecked{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif
+}
+input {
+    width: 30px;
+    padding-left: 10px;
+}
+.checkmark-black { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #FFFFFF;
+    border: 3px solid #22262A;
+    border-radius: 4px;
+}
+.checked-black  > .checkmark-black {
+    background-color: #22262A;
+    background-image: url(checkmark.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 17px;
+}
+.checkmark-blue { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #FFFFFF;
+    border: 3px solid #33A0FF;
+    border-radius: 4px;
+}
+.checked-blue  > .checkmark-blue {
+    background-color: #33A0FF;
+    background-image: url(checkmark.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 17px;
+}
