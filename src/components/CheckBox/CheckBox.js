@@ -1,10 +1,10 @@
 import React from "react";
 import "./CheckBox.css";
 import CheckBox from "./CheckBox";
-import checkedBlack2 from "../img/checkedBlack2.svg";
-import checkboxblack from "../img/checkboxblack.svg";
-import checkboxblue2 from "../img/checkboxblue2.svg";
-import checkedblue from  "../img/checkedblue.svg";
+import checkedBlack2 from "./img/checkedBlack2.svg";
+import checkboxblack from "./img/checkboxblack.svg";
+import checkboxblue2 from "./img/checkboxblue2.svg";
+import checkedblue from  "./img/checkedblue.svg";
 // --------------------------------------------------------
 class CheckBox extends React.Component {
   constructor(props) {
