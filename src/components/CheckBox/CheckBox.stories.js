@@ -1,6 +1,6 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
-import CheckBox from "./CheckBox";
+import CheckBox from "./CheckBox.js";
 
 storiesOf("Check Box", module)
   .add("Black CheckBox", () => <CheckBox checked={false} />)
