@@ -17,11 +17,11 @@ class CheckBox extends Component{
             : this.setState({isChecked: false});
     };
 
-    render(){
+    render() {
         if (this.props.default){
-            return(
+            return (
             <div className= "default-check" onMouseDown={this.handleClick}>
-                {this.state.isChecked (
+                {this.state.isChecked ? (
                     <div className="default-check-click">
                         <img className = "check" src={checkbox}></img>
                     </div>
