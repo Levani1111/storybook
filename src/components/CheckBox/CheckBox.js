@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./CheckBox.css";
 import  checkbox from "../../img/checkboxblue.svg";
 
-class CheckBox extends Component{
+class Checkbox extends Component{
     constructor(props){
         super(props);
         this.state = {
@@ -57,5 +57,5 @@ class CheckBox extends Component{
   }
 }
 
-export default CheckBox;    
+export default Checkbox;    
           
