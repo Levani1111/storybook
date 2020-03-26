@@ -23,24 +23,39 @@ class CheckBox extends Component{
             <div className= "default-check" onMouseDown={this.handleClick}>
                 {this.state.isChecked (
                     <div className="default-check-click">
-                        <img className = "Check" src={checkbox}></img>
+                        <img className = "check" src={checkbox}></img>
                     </div>
                 ) : null}
             </div>
             );
-            className="checkbox" > <img className="img" src={checkbox} /> </div>
-        )
         }
 
-        if (this.state.isonclick == false){
-            return(
-                <div onClick={this.box} className="checkbox" >  </div>
-            )
-        }
-        
+        if (this.props.defaultText) {
+            return (
+                <div className="default-check" onMouseDown={this.handleClick}>
+                    <h3 className="check-text">Don't show this popup again.</h3>
+                    {this.state.isChecked ? (
+                        <div className="default-check-click">
+                            <img className="check" src={checkbox}></img>
+                        </div>
+                    ) : null}
+                </div>
+            );
     }
-    
+
+    if (this.props.blue) {
+      return (
+        <div className="blue-check" onMouseDown={this.handleClick}>
+          {this.state.isChecked ? (
+            <div className="blue-check-click">
+              <img className="check" src={checkbox}></img>
+            </div>
+          ) : null}
+        </div>
+      );
+    }
+  }
 }
 
-
-export default CheckBox;
+export default Checkbox;    
+          
