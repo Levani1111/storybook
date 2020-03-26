@@ -4,22 +4,31 @@ import  checkbox from "../../img/checkboxblue.svg";
 
 class CheckBox extends Component{
     constructor(props){
-        super(props)
-        this.state ={
-            isonclick:true
-        }
+        super(props);
+        this.state = {
+            isChecked:false
+        };
+        this.handleClick = this.handleClick.bind(this);
     }
-    box = ()=>{
-        if (this.state.isonclick === true){
-            this.setState({isonclick:false})
-        } else {
-            this.setState({isonclick:true})
-        }
-    }
+
+    handleClick = () => {
+        !this.state.isChecked
+            ? this.setState({isChecked: true})
+            : this.setState({isChecked: false});
+    };
+
     render(){
-        if (this.state.isonclick == true){
+        if (this.props.default){
             return(
-            <div onClick={this.box} className="checkbox" > <img className="img" src={checkbox}/> </div>
+            <div className= "default-check" onMouseDown={this.handleClick}>
+                {this.state.isChecked (
+                    <div className="default-check-click">
+                        <img className = "Check" src={checkbox}></img>
+                    </div>
+                ) : null}
+            </div>
+            );
+            className="checkbox" > <img className="img" src={checkbox} /> </div>
         )
         }
 
@@ -30,6 +39,7 @@ class CheckBox extends Component{
         }
         
     }
+    
 }
 
 
