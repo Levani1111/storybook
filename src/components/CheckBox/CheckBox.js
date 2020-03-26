@@ -57,5 +57,5 @@ class CheckBox extends Component{
   }
 }
 
-export default Checkbox;    
+export default CheckBox;    
           
