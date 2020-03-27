@@ -8,5 +8,5 @@ storiesOf("Check Box", module)
   .add(
     "Black CheckBox w/Label",
     <Checkbox type="Checkbox" label="Label" defaultText />
-  );
+  )
   
