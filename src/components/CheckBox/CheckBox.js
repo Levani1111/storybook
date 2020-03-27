@@ -33,7 +33,7 @@ class Checkbox extends Component{
         if (this.props.defaultText) {
             return (
                 <div className="default-check" onMouseDown={this.handleClick}>
-                    <h3 className="check-text">Don't show me this popup again.</h3>
+                    <h3 className="check-text">Don't show this popup again.</h3>
                     {this.state.isChecked ? (
                         <div className="default-check-click">
                             <img className="check" src={checkbox}></img>
